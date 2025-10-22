@@ -5,11 +5,27 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.Comments({
+    provider: 'giscus',
+    options: {
+      // from data-repo
+      repo: 'trnghiale/PairsOfChopstick',
+      // from data-repo-id
+      repoId: 'R_kgDOP6a17Q',
+      // from data-category
+      category: 'Announcements',
+      // from data-category-id
+      categoryId: 'DIC_kwDOP6a17c4CwHFX',
+      // from data-lang
+      lang: 'en'
+    }
+  }),
+  ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/trnghiale",
+      "Trailblazer Page": "https://www.salesforce.com/trailblazer/letrongnghia",
     },
   }),
 }
