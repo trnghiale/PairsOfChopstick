@@ -4,9 +4,7 @@ draft: false
 tags:
   - street
 creation date: 2025-02-10 21:39
-comment: true
 ---
-
 ## Japan, Kyoto
 ### 2025/02/08
 
